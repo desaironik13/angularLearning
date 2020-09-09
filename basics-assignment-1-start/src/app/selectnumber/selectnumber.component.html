@@ -1,0 +1,5 @@
+<p>selectnumber</p>
+<input type="text" [(ngModel)] = "num">
+<p>{{ num }}</p>
+<div *ngIf= "num=='0'" class="app-success-alert"></div>
+<div *ngIf= "num!='0' && num" class="app-warning-alert"></div>
